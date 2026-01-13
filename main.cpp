@@ -8,6 +8,10 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    std::cout << add(1, 2) << std::endl;
+    std::cout << sub(2, 2) << std::endl;
+    std::cout << mul(3, 2) << std::endl;
+    std::cout << divi(4, 2) << std::endl;
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
