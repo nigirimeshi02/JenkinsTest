@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat '''
-                "C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin\MSBuild.exe" ^
+                "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Msbuild\\Current\\Bin\\MSBuild.exe" ^
                 GitTest\\GitTest.sln ^
                 /p:Configuration=Release ^
                 /p:Platform=x64
